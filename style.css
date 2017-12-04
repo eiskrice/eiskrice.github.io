@@ -7,36 +7,9 @@ a {
 h1 {
     font-family: verdana;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #011d7a;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-	font-family: verdana;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #3b00ff;
-}
-body {
+h3 {
     font-family: verdana;
 }
-head {
-    font-family: verdana;
-}
-label {
+blink {
     font-family: verdana;
 }
