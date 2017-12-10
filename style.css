@@ -1,4 +1,10 @@
 body {
+    font-family: verdana;
+    margin: 0;
+}
+
+head {
+    font-family: verdana;
     margin: 0;
 }
 
