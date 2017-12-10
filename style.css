@@ -3,6 +3,7 @@ body {
 }
 
 ul {
+    font-family: verdana;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ ul {
 }
 
 li a {
+    font-family: verdana;
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -21,11 +23,17 @@ li a {
 }
 
 li a.active {
+    font-family: verdana;
     background-color: #4CAF50;
     color: white;
 }
 
 li a:hover:not(.active) {
+    font-family: verdana;
     background-color: #555;
     color: white;
+}
+
+a {
+    font-family: verdana;
 }
