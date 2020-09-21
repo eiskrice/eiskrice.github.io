@@ -1,47 +1,44 @@
-<html>
-<head>
-    <title>O aplikaiji</title>
-</head>
-<body>
-     <center><img src="https://eiskrice.github.io/app_icon.png">
-<style>
-body {
-font-family: verdana;
-}
-button {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: verdana;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-button:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-</style>
-<h1>e-Iskrice Aplikacija</h1>
-<p>Aplikacijo je naredil Jurij Fortuna;</p>
-<p>&copy 2017-<span id="date"></span> Triocoder Education Group in/ali OŠ Prule in/ali GAMAvision. Vse Pravice Pridržane.
-<br><br><a href="https://play.google.com/store/apps/details?id=si.osprule.eiskrice&hl=sl"><button>PREVERI POSODOBITVE</button></a>
-<script>
-    var d = new Date();
-    document.getElementById("date").innerHTML = d.getFullYear();
-</script>
-</body>
+		<title>O aplikaiji</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-center" style="margin-top: 40px;">
+				<img src="https://eiskrice.github.io/app_icon.png">
+			</div>
+			
+			<div class="row d-flex justify-content-center" style="margin-top: 20px;">
+				<h1><b>e-iskrice Aplikacija</b></h1>
+			</div>
+			
+			<div class="row d-flex justify-content-center" style="margin-top: 30px;">
+				<h5>Aplikacijo je naredil Jurij Fortuna</h5>
+			</div>
+			
+			<div class="row d-flex justify-content-center" style="margin-top: 10px;">
+				<p>© 2017-<span id="date"></span> Osnovna šola Prule. Vse Pravice Pridržane.</p>
+			</div>
+			
+			<div class="row d-flex justify-content-center" style="margin-top: 10px;">
+				<a href="https://play.google.com/store/apps/details?id=si.osprule.eiskrice">
+					<button type="button" class="btn btn-outline-primary btn-lg">Preveri Posodobitve</button>
+				</a>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		
+		<script>
+			var d = new Date();
+			document.getElementById("date").innerHTML = d.getFullYear();
+		</script>
+	</body>
 </html>
