@@ -1,75 +1,76 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="theme-color" content="#00FF00">
-  <link rel="shortcut icon" type="image/png" href="/app_icon.png">
-  <title>Napake e-Iskric</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <p>NAPAKE e-Iskric</p>
-<table border=5 style="width:100%">
-  <tr>
-    <th>KODA NAPAKE</th>
-    <th>IME NAPAKE</th>
-    <th>DATUM ODKRITJA</th>
-    <th>POPRAVLJENA &#x2714; / &#x2716;</th>
-    <th>ODKRIL</th>
-  </tr>
-  <tr>
-    <td>#01/000001</td>
-    <td>problem z ustavljanjem</td>
-    <td>20. 11. 2017</td>
-    <td>&#x2714;</td>
-    <td>MARJAN FORTUNA</td>
-  </tr>
-  <tr>
-    <td>#01/000002</td>
-    <td>težava z zaganjanjem na tablicah</td>
-    <td>3. 12. 2017</td>
-    <td>&#x2714;</td>
-    <td>RAZVIJALCI</td>
-  </tr>
-  <tr>
-    <td>#01/000003</td>
-    <td>težava z odpiranjem novic</td>
-    <td>3. 8. 2018</td>
-    <td>&#x2714;</td>
-    <td>RAZVIJALCI</td>
-  </tr>
-  <tr>
-    <td>#01/000004</td>
-    <td>napaka pri odpiranju šolske spletne strani</td>
-    <td>2. 10. 2018</td>
-    <td>&#x2714;</td>
-    <td>RAZVIJALCI</td>
-  </tr>
-  <tr>
-    <td>#01/000005</td>
-    <td>napaka z ugašanjem zaslona</td>
-    <td>5. 7. 2019</td>
-    <td>&#x2714;</td>
-    <td>RAZVIJALCI</td>
-  </tr>
-  <tr>
-    <td>#01/000006</td>
-    <td>napaka z Remote Configom</td>
-    <td>18. 8. 2019</td>
-    <td>&#x2714;</td>
-    <td>RAZVIJALCI</td>
-  </tr>
-  <tr>
-    <td>#02/000001</td>
-    <td>Problemi s prikazovanjem napak</td>
-    <td>1. 4. 2018</td>
-    <td>&#x2714;</td>
-    <td>RAZVIJALCI</td>
-  </tr>
-</table>
-  <p>&copy 2017-<span id="date"></span> Triocoder Education Group in/ali OŠ Prule</p>
-  <script>
-    var d = new Date();
-    document.getElementById("date").innerHTML = d.getFullYear();
-  </script>
-  </body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+		<title>Napake e-Iskric</title>
+	</head>
+	<body>
+		<div class="container" style="margin-top: 30px;">
+			<div class="row">
+				<table class="table">
+					<thead class="thead-dark">
+						<tr>
+							<th scope="col">Koda napake</th>
+							<th scope="col">Opis napake</th>
+							<th scope="col">Datum</th>
+							<th scope="col">POPRAVLJENA ✔ / ✖</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<th scope="row">#01/000001</th>
+							<td>Težava s sesutjem programa.</td>
+							<td>20. 11. 2017</td>
+							<td>✔</td>
+						</tr>
+						
+						<tr>
+							<th scope="row">#01/000002</th>
+							<td>Težava z zaganjanjem na tablicah.</td>
+							<td>3. 12. 2017</td>
+							<td>✔</td>
+						</tr>
+						
+						<tr>
+							<th scope="row">#01/000003</th>
+							<td>Težava z odpiranjem novic.</td>
+							<td>3. 8. 2018</td>
+							<td>✔</td>
+						</tr>
+						
+						<tr>
+							<th scope="row">#01/000004</th>
+							<td>Napaka pri odpiranju šolske spletne strani.</td>
+							<td>2. 10. 2018</td>
+							<td>✔</td>
+						</tr>
+						
+						<tr>
+							<th scope="row">#01/000005</th>
+							<td>Napaka z ugašanjem zaslona.</td>
+							<td>5. 7. 2019</td>
+							<td>✔</td>
+						</tr>
+						
+						<tr>
+							<th scope="row">#01/000006</th>
+							<td>Napaka z Remote Configom.</td>
+							<td>18. 8. 2019</td>
+							<td>✔</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
 </html>
